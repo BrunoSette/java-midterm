@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="103.0" layoutY="58.0" text="PatientID" />
+      <TableView layoutX="42.0" layoutY="90.0" prefHeight="90.0" prefWidth="493.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Title 1" />
+          <TableColumn prefWidth="75.0" text="Title 2" />
+            <TableColumn prefWidth="75.0" text="Title 3" />
+            <TableColumn prefWidth="75.0" text="Title 4" />
+        </columns>
+      </TableView>
+      <Button layoutX="123.0" layoutY="342.0" mnemonicParsing="false" text="Save" />
+      <Button layoutX="332.0" layoutY="342.0" mnemonicParsing="false" text="Close" />
+      <Button layoutX="380.0" layoutY="54.0" mnemonicParsing="false" text="Search" />
+      <TextField layoutX="168.0" layoutY="53.0" />
+      <TextField layoutX="145.0" layoutY="200.0" />
+      <TextField layoutX="145.0" layoutY="243.0" />
+      <TextField layoutX="145.0" layoutY="290.0" />
+      <Label layoutX="42.0" layoutY="205.0" text="Symtoms" />
+      <Label layoutX="42.0" layoutY="248.0" text="Diagnosis" />
+      <Label layoutX="42.0" layoutY="295.0" text="Medecines" />
+      <Label layoutX="381.0" layoutY="205.0" text="Ward Required?" />
+      <CheckBox layoutX="486.0" layoutY="205.0" mnemonicParsing="false" text="Yes" />
+      <Label layoutX="157.0" layoutY="14.0" text="Bruno Sette">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="14.0" text="Student #200575044">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
